@@ -4,10 +4,10 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-#define EC_APPKIT 1
+#define EC_SPARKLEPREFERENCEPANE 1
 
 #ifdef __OBJC__
 
-#import <ECCore/ECCore.h>
+#import <ECAppKit/ECAppKit.h>
 
 #endif

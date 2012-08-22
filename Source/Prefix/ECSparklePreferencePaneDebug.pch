@@ -6,4 +6,4 @@
 
 #import <ECConfig/ECConfigDebug.pch>
 
-#import "ECSparklePreferencePane.pch"
+#import "ECSparklePreferencePaneShared.pch"

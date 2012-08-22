@@ -12,6 +12,7 @@
 		2227BD3715E4F63B001DCE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3115E4F63B001DCE0D /* InfoPlist.strings */; };
 		2227BD3815E4F63B001DCE0D /* view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3315E4F63B001DCE0D /* view.xib */; };
 		2227BD3915E4F63B001DCE0D /* icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3515E4F63B001DCE0D /* icon.tiff */; };
+		2227BD3E15E4F6EE001DCE0D /* ECSparklePreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227BD3D15E4F6EE001DCE0D /* ECSparklePreferenceController.m */; };
 		22F06EC9122E8F300058DB57 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		2227BD3415E4F63B001DCE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/view.xib; sourceTree = "<group>"; };
 		2227BD3515E4F63B001DCE0D /* icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon.tiff; sourceTree = "<group>"; };
 		2227BD3615E4F63B001DCE0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2227BD3C15E4F6EE001DCE0D /* ECSparklePreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSparklePreferenceController.h; sourceTree = "<group>"; };
+		2227BD3D15E4F6EE001DCE0D /* ECSparklePreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSparklePreferenceController.m; sourceTree = "<group>"; };
 		22BC746F122F2352007BA2F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		22DF7819110FB58A0089D316 /* sparkle.preferencePane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkle.preferencePane; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -107,11 +110,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		2227BD3B15E4F6EE001DCE0D /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				2227BD3C15E4F6EE001DCE0D /* ECSparklePreferenceController.h */,
+				2227BD3D15E4F6EE001DCE0D /* ECSparklePreferenceController.m */,
+			);
+			name = Mac;
+			path = Source/Mac;
+			sourceTree = SOURCE_ROOT;
+		};
 		226B2809110FB002000823E8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				2227BD2315E4F167001DCE0D /* Configuration */,
 				2227BD2815E4F181001DCE0D /* Prefix */,
+				2227BD3B15E4F6EE001DCE0D /* Mac */,
 			);
 			name = Source;
 			path = source/shared;
@@ -209,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2227BD3E15E4F6EE001DCE0D /* ECSparklePreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

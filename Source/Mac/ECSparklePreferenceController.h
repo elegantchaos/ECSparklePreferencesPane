@@ -5,8 +5,6 @@
 //  Copyright 2012 Sam Deane, Elegant Chaos. All rights reserved.
 // --------------------------------------------------------------------------
 
-#import "ECPreferencePanel.h"
-
 @interface ECSparklePreferenceController : ECPreferencePanel
 
 @property (strong, nonatomic) NSString* introText;
