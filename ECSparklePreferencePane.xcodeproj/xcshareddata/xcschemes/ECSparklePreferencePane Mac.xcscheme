@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "0450"
    version = "1.8">
    <BuildAction
       parallelizeBuildables = "NO"
@@ -78,7 +79,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
@@ -86,7 +87,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
