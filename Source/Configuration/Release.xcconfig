@@ -7,5 +7,5 @@
 /// Standard xcconfig files.
 /// The use of a relative path here relies on ECConfig being in a known location. See <ImportNote> in the documentation for more details.
 
-#include "../../../frameworks/ECConfig/Source/Configuration/ECMacRelease.xcconfig"
-#include "../../../frameworks/ECAppKit/Source/Configuration/ECPreferencePane.xcconfig"
+#include "../../../ECConfig/Source/Configuration/ECMacRelease.xcconfig"
+#include "../../../ECAppKit/Source/Configuration/ECPreferencePane.xcconfig"
