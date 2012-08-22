@@ -16,7 +16,7 @@
                BlueprintIdentifier = "221CB52D15DA9816004C6398"
                BuildableName = "ECConfig.framework"
                BlueprintName = "ECConfigMac"
-               ReferencedContainer = "container:../../../neu/frameworks/ECConfig/ECConfig.xcodeproj">
+               ReferencedContainer = "container:../ECConfig/ECConfig.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,7 +30,7 @@
                BlueprintIdentifier = "2251B9FE15DBCC3E00F2FE40"
                BuildableName = "ECLogging.framework"
                BlueprintName = "ECLoggingMac"
-               ReferencedContainer = "container:../../../neu/frameworks/ECLogging/ECLogging.xcodeproj">
+               ReferencedContainer = "container:../ECLogging/ECLogging.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -44,7 +44,7 @@
                BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
                BuildableName = "ECCore.framework"
                BlueprintName = "ECCoreMac"
-               ReferencedContainer = "container:../../../neu/frameworks/ECCore/ECCore.xcodeproj">
+               ReferencedContainer = "container:../ECCore/ECCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -58,7 +58,7 @@
                BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
                BuildableName = "ECAppKit.framework"
                BlueprintName = "ECAppKitMac"
-               ReferencedContainer = "container:../../../neu/frameworks/ECAppKit/ECAppKit.xcodeproj">
+               ReferencedContainer = "container:../ECAppKit/ECAppKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -70,7 +70,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22DF780E110FB58A0089D316"
-               BuildableName = ".bundle"
+               BuildableName = "sparkle.preferencePane"
                BlueprintName = "sparkle"
                ReferencedContainer = "container:ECSparklePreferencePane.xcodeproj">
             </BuildableReference>
