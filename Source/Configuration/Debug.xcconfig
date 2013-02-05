@@ -8,4 +8,4 @@
 /// The use of a relative path here relies on ECConfig being in a known location. See <ImportNote> in the documentation for more details.
 
 #include "../../../ECConfig/Source/Configuration/ECMacDebug.xcconfig"
-#include "../../../ECAppKit/Source/Configuration/ECPreferencePane.xcconfig"
+#include "../../../ECPreferencesWindow/Source/Configuration/ECPWBundle.xcconfig"

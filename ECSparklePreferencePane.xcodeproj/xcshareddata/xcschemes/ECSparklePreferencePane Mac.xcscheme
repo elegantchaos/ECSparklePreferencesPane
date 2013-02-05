@@ -57,9 +57,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
-               BuildableName = "ECAppKit.framework"
-               BlueprintName = "ECAppKitMac"
-               ReferencedContainer = "container:../ECAppKit/ECAppKit.xcodeproj">
+               BuildableName = "ECPreferencesWindow.framework"
+               BlueprintName = "ECPreferencesWindowMac"
+               ReferencedContainer = "container:../ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -71,7 +71,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22DF780E110FB58A0089D316"
-               BuildableName = "sparkle.preferencePane"
+               BuildableName = "sparkle.bundle"
                BlueprintName = "sparkle"
                ReferencedContainer = "container:ECSparklePreferencePane.xcodeproj">
             </BuildableReference>
@@ -88,7 +88,7 @@
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
       launchStyle = "0"

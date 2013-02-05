@@ -21,6 +21,6 @@
 	<key>NSMainNibFile</key>
 	<string>view</string>
 	<key>NSPrincipalClass</key>
-	<string>SparklePreferenceController</string>
+	<string>SparklePreferenceBundle</string>
 </dict>
 </plist>
