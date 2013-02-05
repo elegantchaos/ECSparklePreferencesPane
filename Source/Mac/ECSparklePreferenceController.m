@@ -8,16 +8,11 @@
 
 @implementation ECSparklePreferenceController
 
-- (id) init
+- (void)paneDidLoad
 {
-	if ((self = [super init]) != nil)
-	{
-		NSString* name = [[[NSBundle mainBundle] infoDictionary] objectForKey: @"CFBundleName"];
-		self.introText = [NSString stringWithFormat: @"%@ can automatically check for updates of itself. Checking occurs only when a network connection is active.", name];
-		self.anonymousText = [NSString stringWithFormat: @"To help us improve support for all platforms, %@ can include anonymous information about your current configuration every time it checks for an update.", name];
-	}
-	
-	return self;
+    NSString* name = [[NSApplication sharedApplication] applicationName];
+    self.introText = [NSString stringWithFormat: @"%@ can automatically check for updates of itself. Checking occurs only when a network connection is active.", name];
+    self.anonymousText = [NSString stringWithFormat: @"To help us improve support for all platforms, %@ can include anonymous information about your current configuration every time it checks for an update.", name];
 }
 
 - (void) dealloc

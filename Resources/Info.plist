@@ -7,13 +7,13 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.elegantchaos.ambientweet</string>
+	<string>com.elegantchaos.preferences.sparkle</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1b4</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -22,5 +22,19 @@
 	<string>view</string>
 	<key>NSPrincipalClass</key>
 	<string>ECSparklePreferenceBundle</string>
+	<key>ECPreferencesWindow</key>
+	<dict>
+		<key>Panes</key>
+		<array>
+			<dict>
+				<key>Class</key>
+				<string>ECSparklePreferenceController</string>
+				<key>Name</key>
+				<string>Updates</string>
+				<key>ToolTip</key>
+				<string>Automatic Updates</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>
