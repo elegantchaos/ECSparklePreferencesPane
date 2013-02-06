@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221D119E16C2D58100319A02 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221D119D16C2D58100319A02 /* Sparkle.framework */; };
 		2227BD3715E4F63B001DCE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3115E4F63B001DCE0D /* InfoPlist.strings */; };
 		2227BD3815E4F63B001DCE0D /* ECSparklePreferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3315E4F63B001DCE0D /* ECSparklePreferenceController.xib */; };
 		2227BD3915E4F63B001DCE0D /* ECSparklePreferenceController.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3515E4F63B001DCE0D /* ECSparklePreferenceController.tiff */; };
@@ -18,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		2224B0D4110F941E001B17B8 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		221D119D16C2D58100319A02 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2227BD1015E4EAED001DCE0D /* ECAquaticPrime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECAquaticPrime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2227BD1115E4EAED001DCE0D /* ECConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2227BD1215E4EAEE001DCE0D /* ECCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +51,7 @@
 			files = (
 				22D45A5416C159B200BA9A9B /* ECPreferencesWindow.framework in Frameworks */,
 				22F06EC9122E8F300058DB57 /* AppKit.framework in Frameworks */,
+				221D119E16C2D58100319A02 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +61,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				221D119D16C2D58100319A02 /* Sparkle.framework */,
 				22D45A5316C159B200BA9A9B /* ECPreferencesWindow.framework */,
 				2227BD1015E4EAED001DCE0D /* ECAquaticPrime.framework */,
 				2227BD1115E4EAED001DCE0D /* ECConfig.framework */,
@@ -67,7 +70,6 @@
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 				22BC746F122F2352007BA2F8 /* CoreFoundation.framework */,
-				2224B0D4110F941E001B17B8 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -258,10 +260,6 @@
 			baseConfigurationReference = 2227BD2415E4F167001DCE0D /* Debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"/Caches/DerivedData/neu-ebxgnzguajhzbogvysnvpybbekqu/Build/Products/Debug\"",
-				);
 				INFOPLIST_FILE = Resources/Info.plist;
 			};
 			name = Debug;
@@ -271,10 +269,6 @@
 			baseConfigurationReference = 2227BD2515E4F167001DCE0D /* Release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"/Caches/DerivedData/neu-ebxgnzguajhzbogvysnvpybbekqu/Build/Products/Debug\"",
-				);
 				INFOPLIST_FILE = Resources/Info.plist;
 			};
 			name = Release;
