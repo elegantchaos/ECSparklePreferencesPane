@@ -2,5 +2,5 @@
 
 CFBundleName = "SparklePreferences";
 CFBundleShortVersionString = "SparklePreferences version 1.1";
-CFBundleGetInfoString = "SparklePreferences version 1.1, Copyright (c) 2012 Elegant Chaos.";
-NSHumanReadableCopyright = "Copyright (c) 2012 Elegant Chaos.";
+CFBundleGetInfoString = "SparklePreferences version 1.1, Copyright (c) 2013 Elegant Chaos.";
+NSHumanReadableCopyright = "Copyright (c) 2013 Elegant Chaos.";
