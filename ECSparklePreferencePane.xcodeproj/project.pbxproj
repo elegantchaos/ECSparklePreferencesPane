@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221D119E16C2D58100319A02 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221D119D16C2D58100319A02 /* Sparkle.framework */; };
+		221D119E16C2D58100319A02 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221D119D16C2D58100319A02 /* Sparkle.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2227BD3715E4F63B001DCE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3115E4F63B001DCE0D /* InfoPlist.strings */; };
 		2227BD3815E4F63B001DCE0D /* ECSparklePreferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3315E4F63B001DCE0D /* ECSparklePreferenceController.xib */; };
 		2227BD3915E4F63B001DCE0D /* ECSparklePreferenceController.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2227BD3515E4F63B001DCE0D /* ECSparklePreferenceController.tiff */; };
