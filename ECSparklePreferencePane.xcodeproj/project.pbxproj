@@ -259,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2227BD2415E4F167001DCE0D /* Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Sam Deane";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 			};
@@ -268,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2227BD2515E4F167001DCE0D /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Sam Deane";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 			};
