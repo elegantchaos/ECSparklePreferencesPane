@@ -15,12 +15,4 @@
     self.anonymousText = [NSString stringWithFormat: @"To help us improve support for all platforms, %@ can include anonymous information about your current configuration every time it checks for an update.", name];
 }
 
-- (void) dealloc
-{
-	[_introText release];
-	[_anonymousText release];
-	
-	[super dealloc];
-}
-
 @end
