@@ -39,7 +39,7 @@
 		22D45A5016C1594700BA9A9B /* ECSparklePreferenceBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSparklePreferenceBundle.h; sourceTree = "<group>"; };
 		22D45A5116C1594700BA9A9B /* ECSparklePreferenceBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSparklePreferenceBundle.m; sourceTree = "<group>"; };
 		22D45A5316C159B200BA9A9B /* ECPreferencesWindow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECPreferencesWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DF7819110FB58A0089D316 /* sparkle.preferences */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = sparkle.preferences; path = sparkle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DF7819110FB58A0089D316 /* sparkle.preferences */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkle.preferences; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -262,6 +262,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application: Sam Deane";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp=none";
 			};
 			name = Debug;
 		};
@@ -272,6 +273,7 @@
 				CODE_SIGN_IDENTITY = "Developer ID Application: Sam Deane";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp=none";
 			};
 			name = Release;
 		};
